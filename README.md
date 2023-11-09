@@ -1,6 +1,6 @@
 # Brick Breaker
 
-Built using this tutorial: https://www.youtube.com/watch?v=6KsbRwPJEA4&ab_channel=SandipBhattacharya
+Android app built using this tutorial: https://www.youtube.com/watch?v=6KsbRwPJEA4&ab_channel=SandipBhattacharya
 
 --
 <br>
