@@ -18,11 +18,16 @@ app.listen(PORT, () => {
 });
 
 let mockScores = [
-  { id: 1, name: 'Marlin', score: 100 },
-  { id: 2, name: 'Nemo', score: 200 },
-  { id: 3, name: 'Dory', score: 300 }
+  { id: 1, name: 'Marlin', score: 40 },
+  { id: 2, name: 'Nemo', score: 50 },
+  { id: 3, name: 'Dory', score: 60 }
 ];
 
 app.get('/api/scores', (req, res) => {
   res.json({ scores: mockScores });
+});
+
+app.post('/api/scores', function (req, res, next) {
+  mockScores.push(req.body);
+  res.send({ scores: mockScores });
 });
