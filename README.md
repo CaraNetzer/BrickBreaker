@@ -24,4 +24,10 @@ And Layout files can be found in BrickBreaker/app/src/main/res/layout
 --
 <br>
 
+Custom features added:
+- High scores using express.js
+
+--
+<br>
+
 <img src="https://github.com/CaraNetzer/BrickBreaker/assets/106983495/9d6e2491-f04b-432b-a4bc-4d6dc80e4266" width="500">
